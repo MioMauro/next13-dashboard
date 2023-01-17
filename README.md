@@ -14,6 +14,8 @@ npx tailwindcss init -p
 @tailwind components;
 @tailwind utilities;
 ---
+npm install react-icons --save
+
 
 First, run the development server:
 
