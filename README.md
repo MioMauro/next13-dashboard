@@ -2,6 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+--
+ content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+--
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+---
+
 First, run the development server:
 
 ```bash
