@@ -35,11 +35,22 @@ const BarChart = () => {
                     data: [18127, 22201, 19490, 17938, 24182, 17842, 22475],
                     borderColor: 'rgb(53, 162, 253)',
                     backgroundColor: 'rgba(53, 162, 235, 0.4)',
-
                 },
             ],
         })
-
+        setChartOptions({
+            plugins:{
+                legend:{
+                    position: 'top',                    
+                },
+                title: {
+                    display: true,
+                    text: 'Daily Revenue'
+                }                
+            },
+            maintainAspectRatio: false,
+            responsive: true,
+        })
     }, [])
 
 
