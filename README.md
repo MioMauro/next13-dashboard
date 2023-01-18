@@ -16,6 +16,7 @@ npx tailwindcss init -p
 ---
 npm install react-icons --save
 
+rafce 
 
 First, run the development server:
 

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '@/components/Header'
+import TopCards from '@/components/TopCards'
 
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-gray-300 min-h-screen"> 
-      <Header/>      
+      <Header/> 
+      <TopCards/>     
       </main>
     </>
   )
