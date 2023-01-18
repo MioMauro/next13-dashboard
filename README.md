@@ -15,6 +15,8 @@ npx tailwindcss init -p
 @tailwind utilities;
 ---
 npm install react-icons --save
+npm install --save chart.js react-chartjs-2
+import { Chart } from 'react-chartjs-2';
 
 rafce 
 
